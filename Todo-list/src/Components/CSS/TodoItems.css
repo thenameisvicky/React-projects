@@ -1,0 +1,46 @@
+.todoitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  align-items: center;
+}
+.todoitems-container {
+  display: flex;
+  align-items: center;
+}
+.todoitems-text {
+  padding-left: 16px;
+  color: #404040;
+  font-size: 22px;
+}
+.todoitems-cross-icon {
+    cursor: pointer;
+    padding-right: 25px;
+
+}
+.line-through{
+  text-decoration: line-through solid 3px;
+}
+
+@media screen and (max-width: 500px){
+  .todoitems{
+    padding: 8px 0px;
+  }
+  .todoitems-container {
+    display: flex;
+  }
+  .todoitems-text{
+    padding-left: 8px;
+    font-size: 11px;
+  }
+  .todoitems-cross-icon{
+    padding-right: 17px;
+  }
+  .line-through{
+    text-decoration: line-through solid 2px;
+  }
+  img{
+    height: 15px;
+
+  }
+}
